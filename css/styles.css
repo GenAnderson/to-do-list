@@ -1,0 +1,19 @@
+body {
+  position: relative;
+}
+
+.middleContainer {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 50%);
+
+  width: 100rem;
+  height: 20rem;
+  background-color: rgb(219, 236, 188);
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
